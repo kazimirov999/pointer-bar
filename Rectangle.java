@@ -12,11 +12,11 @@ public class Rectangle {
         this.width = width;
         }
 
-    public void diam(){
+    public void diameter(){
         if (width < 1 || length < 1)
             System.out.println("Error. Choose a positive number");
         else
-            System.out.println("The Diam is " + (width + length)*2);
+            System.out.println("The Diameter is " + (width + length)*2);
     }
 
     public void square(){
